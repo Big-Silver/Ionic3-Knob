@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Ionic Menu Starter</h3>
+
+  <div class="knob-rect">
+    <ui-knob  [options]="_DHT22KnobHumidityOptions" [(value)]="_DHT22KnobHumidityValue"></ui-knob>
+  </div>
+  
+<!-- <h3>Knob Use Example</h3>
+    <div class="container">
+        <knob class="skin1" #myknob1 [min]="10" [max]="200" [value]="80" [startDegree]="200"  [endDegree]="120"></knob>
+        <div class="info bpm">{{myknob1.meterValue}} bpm</div>
+    </div>  -->
+
+
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+  </p>
+
+  <button ion-button secondary menuToggle>Toggle Menu</button>
+
+</ion-content>

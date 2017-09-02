@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>List</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <input #knob type="text" [(ngModel)]="value"class="dial">
+
+
+  <input type="text" [(ngModel)]="value" (ngModelChange)="change()" class="dial">
+
+
+
+
+</ion-content>
