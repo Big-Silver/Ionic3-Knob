@@ -1,4 +1,4 @@
-# Knop in angular2 ionic3
+# Knob in angular2 ionic3
 
 ## 1st- solution [ng-knob2](https://github.com/RadMie/ng-knob/issues/9#issuecomment-245337327)
       
@@ -35,5 +35,5 @@
              
 # Screen shots
 
-<img src="https://raw.githubusercontent.com/almgwary/knob-angular-2-ionic-3/master/s2.PNG" width=30%>
-<img src="https://raw.githubusercontent.com/almgwary/knob-angular-2-ionic-3/master/s1.PNG" width=30%>
+<img src="s2.PNG" width=30%>
+<img src="s1.PNG" width=30%>
